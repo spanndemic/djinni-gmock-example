@@ -1,0 +1,9 @@
+turtle = interface +c {
+	static create(): turtle;
+	pen_down();
+}
+
+painter = interface +c {
+    static create_with_turtle(turtle: turtle): painter;
+    draw_circle(x: i32, y: i32, radius: i32): bool;
+}
