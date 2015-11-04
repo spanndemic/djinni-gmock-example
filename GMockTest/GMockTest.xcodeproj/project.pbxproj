@@ -10,8 +10,8 @@
 		F12B544E1BE9299D0064A1BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12B544D1BE9299D0064A1BF /* main.cpp */; };
 		F12B546D1BE92C9E0064A1BF /* gmock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B545E1BE929B90064A1BF /* gmock.framework */; };
 		F12B546E1BE92C9E0064A1BF /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B54601BE929B90064A1BF /* gtest.framework */; };
-		F12B547C1BE938100064A1BF /* turtle_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12B547A1BE938100064A1BF /* turtle_impl.cpp */; };
-		F12B54961BEA55B30064A1BF /* painter_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12B54941BEA55B30064A1BF /* painter_impl.cpp */; };
+		F12B54A51BEA65210064A1BF /* turtle_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12B54A31BEA65210064A1BF /* turtle_impl.cpp */; };
+		F12B54A81BEA65380064A1BF /* painter_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12B54A61BEA65380064A1BF /* painter_impl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,13 +61,13 @@
 		F12B544A1BE9299D0064A1BF /* GMockTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GMockTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12B544D1BE9299D0064A1BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F12B54541BE929B90064A1BF /* GoogleMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GoogleMock.xcodeproj; path = "../../gmock-xcode/GoogleMock.xcodeproj"; sourceTree = "<group>"; };
-		F12B54721BE9346A0064A1BF /* mock_turtle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mock_turtle.hpp; sourceTree = "<group>"; };
-		F12B54751BE934A30064A1BF /* turtle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = turtle.hpp; sourceTree = "<group>"; };
-		F12B54781BE934BE0064A1BF /* painter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = painter.hpp; sourceTree = "<group>"; };
-		F12B547A1BE938100064A1BF /* turtle_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = turtle_impl.cpp; sourceTree = "<group>"; };
-		F12B547B1BE938100064A1BF /* turtle_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = turtle_impl.hpp; sourceTree = "<group>"; };
-		F12B54941BEA55B30064A1BF /* painter_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = painter_impl.cpp; sourceTree = "<group>"; };
-		F12B54951BEA55B30064A1BF /* painter_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = painter_impl.hpp; sourceTree = "<group>"; };
+		F12B54A11BEA64BB0064A1BF /* painter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = painter.hpp; path = "../../generated-src/cpp/painter.hpp"; sourceTree = "<group>"; };
+		F12B54A21BEA64BB0064A1BF /* turtle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = turtle.hpp; path = "../../generated-src/cpp/turtle.hpp"; sourceTree = "<group>"; };
+		F12B54A31BEA65210064A1BF /* turtle_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = turtle_impl.cpp; path = ../../src/turtle_impl.cpp; sourceTree = "<group>"; };
+		F12B54A41BEA65210064A1BF /* turtle_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = turtle_impl.hpp; path = ../../src/turtle_impl.hpp; sourceTree = "<group>"; };
+		F12B54A61BEA65380064A1BF /* painter_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = painter_impl.cpp; path = ../../src/painter_impl.cpp; sourceTree = "<group>"; };
+		F12B54A71BEA65380064A1BF /* painter_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = painter_impl.hpp; path = ../../src/painter_impl.hpp; sourceTree = "<group>"; };
+		F12B54AA1BEA66190064A1BF /* mock_turtle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mock_turtle.hpp; path = ../../src/mock_turtle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				F12B544D1BE9299D0064A1BF /* main.cpp */,
-				F12B54721BE9346A0064A1BF /* mock_turtle.hpp */,
-				F12B54751BE934A30064A1BF /* turtle.hpp */,
-				F12B54781BE934BE0064A1BF /* painter.hpp */,
-				F12B547A1BE938100064A1BF /* turtle_impl.cpp */,
-				F12B547B1BE938100064A1BF /* turtle_impl.hpp */,
-				F12B54941BEA55B30064A1BF /* painter_impl.cpp */,
-				F12B54951BEA55B30064A1BF /* painter_impl.hpp */,
+				F12B54AA1BEA66190064A1BF /* mock_turtle.hpp */,
+				F12B54A11BEA64BB0064A1BF /* painter.hpp */,
+				F12B54A61BEA65380064A1BF /* painter_impl.cpp */,
+				F12B54A71BEA65380064A1BF /* painter_impl.hpp */,
+				F12B54A21BEA64BB0064A1BF /* turtle.hpp */,
+				F12B54A31BEA65210064A1BF /* turtle_impl.cpp */,
+				F12B54A41BEA65210064A1BF /* turtle_impl.hpp */,
 			);
 			path = GMockTest;
 			sourceTree = "<group>";
@@ -220,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12B544E1BE9299D0064A1BF /* main.cpp in Sources */,
-				F12B54961BEA55B30064A1BF /* painter_impl.cpp in Sources */,
-				F12B547C1BE938100064A1BF /* turtle_impl.cpp in Sources */,
+				F12B54A51BEA65210064A1BF /* turtle_impl.cpp in Sources */,
+				F12B54A81BEA65380064A1BF /* painter_impl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

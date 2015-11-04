@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD80A5EBDE5BE9C1E97E70DF30C7C5892E008A0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A59B79241FF48B87B8A2D6239F13C873F14163E3" : 0,
+    "FD80A5EBDE5BE9C1E97E70DF30C7C5892E008A0A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "136588A4-B4BE-486C-A174-0F537D31033F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A59B79241FF48B87B8A2D6239F13C873F14163E3" : "gmock-xcode\/",
+    "FD80A5EBDE5BE9C1E97E70DF30C7C5892E008A0A" : "gmock-test\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GMockTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GMockTest\/GMockTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/macmade\/gmock-xcode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A59B79241FF48B87B8A2D6239F13C873F14163E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:spanndemic\/djinni-gmock-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD80A5EBDE5BE9C1E97E70DF30C7C5892E008A0A"
+    }
+  ]
+}

@@ -1,22 +1,34 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
+
 #include "mock_turtle.hpp"
 #include "painter_impl.hpp"
+
 using ::testing::AtLeast;
 
-using ::testing::AtLeast;                     // #1
+namespace gmocktest {}
+using namespace gmocktest;
 
-TEST(PainterTest, CanDrawSomething) {
-    MockTurtle turtle;                          // #2
-    EXPECT_CALL(turtle, PenDown())              // #3
-    .Times(AtLeast(1));
+class MyClassTests : public ::testing::Test {
     
-    PainterImpl painter(turtle);                   // #4
+public:
     
-    EXPECT_TRUE(painter.DrawCircle(0, 0, 10));
+    MyClassTests():
+    turtle_(new MockTurtle), painter_(new PainterImpl(turtle_)) {}
+    
+protected:
+    
+    std::shared_ptr<MockTurtle> turtle_;
+    std::shared_ptr<PainterImpl> painter_;
+    
+};
+
+TEST_F(MyClassTests, CanDrawSomething) {
+    
+    EXPECT_CALL(*turtle_, pen_down()).Times(AtLeast(1));
+    EXPECT_TRUE(painter_->draw_circle(0, 0, 10));
+    
 }
-
-
 
 int main(int argc, char * argv[]) {
     
